@@ -3,11 +3,11 @@ import { ScrollReveal } from "../shared/ScrollReveal";
 
 const galleryImages = [
   { src: "/images/gallery/bridal_1.png", alt: "איפור כלה", size: "big" },
-  { src: "/images/gallery/bridal_2.png", alt: "איפור כלות יוקרתי", size: "big" },
-  { src: "/images/gallery/regular_1.png", alt: "איפור ערב", size: "small" },
-  { src: "/images/gallery/regular_2.png", alt: "איפור טבעי", size: "small" },
-  { src: "/images/gallery/detail_1.png", alt: "פרטי איפור עיניים", size: "small" },
-  { src: "/images/gallery/detail_2.png", alt: "גימור מושלם", size: "small" },
+  { src: "/images/gallery/bridal_1.png", alt: "איפור כלות יוקרתי", size: "big" },
+  { src: "/images/gallery/bridal_1.png", alt: "איפור ערב", size: "small" },
+  { src: "/images/gallery/bridal_1.png", alt: "איפור טבעי", size: "small" },
+  { src: "/images/gallery/bridal_1.png", alt: "פרטי איפור עיניים", size: "small" },
+  { src: "/images/gallery/bridal_1.png", alt: "גימור מושלם", size: "small" },
 ];
 
 export default function Gallery() {
@@ -18,7 +18,7 @@ export default function Gallery() {
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-3xl md:text-5xl font-serif font-bold text-primary">גלריית עבודות</h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              הצצה לעולם של יופי, דיוק ואומנות. איפור כלות, ערב ואירועים ברמה הגבוהה ביותר.
+              [טקסט דמה: הצצה לעולם של יופי, דיוק ואומנות. איפור כלות, ערב ואירועים ברמה הגבוהה ביותר.]
             </p>
           </div>
         </ScrollReveal>
